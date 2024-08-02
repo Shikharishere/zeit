@@ -1,0 +1,18 @@
+{
+  "name": "zeit",
+  "version": "1.0.0",
+  "description": "time in german",
+  "main": "src/index.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shikhar upadhyay",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+
+    "moment": "^2.30.1"
+  }
+}
